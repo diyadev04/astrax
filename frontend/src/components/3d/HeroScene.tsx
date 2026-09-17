@@ -96,8 +96,8 @@ const GalaxyDome = () => {
       
       {/* Dense, Moving Starfield */}
       <group>
-        <Stars radius={100} depth={100} count={2000} factor={3} saturation={1} fade speed={1} color="#EAFBFF" />
-        <Stars radius={80} depth={50} count={1000} factor={2} saturation={1} fade speed={1.5} color="#00D9FF" />
+        <Stars radius={100} depth={100} count={2000} factor={3} saturation={1} fade speed={1} />
+        <Stars radius={80} depth={50} count={1000} factor={2} saturation={1} fade speed={1.5} />
       </group>
       
       {/* Supernatural Nebula Layer 1 (Neon Magenta) */}
